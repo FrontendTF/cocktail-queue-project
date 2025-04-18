@@ -63,7 +63,7 @@ We are currently studying **Mobile Software Development** at FH Joanneum in our 
 ### Rossmann
 
 - [x] write this README
-- [ ] create maven project
+- [x] create maven project
 - [ ] extent pom.xml
 - [ ] create Cocktail class
 - [ ] write JavaDoc for classes and methods
