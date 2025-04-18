@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>at.fhj.msd</groupId>
-  <artifactId>cocktail-queue</artifactId>
+  <artifactId>cocktail-queue-project</artifactId>
   <version>1.0-SNAPSHOT</version>
 
   <name>cocktail-queue</name>
