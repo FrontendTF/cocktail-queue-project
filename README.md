@@ -65,7 +65,7 @@ We are currently studying **Mobile Software Development** at FH Joanneum in our 
 - [x] write this README
 - [x] create maven project
 - [x] extent pom.xml
-- [ ] create Cocktail class
+- [x] create Cocktail class
 - [ ] write JavaDoc for classes and methods
 
 
