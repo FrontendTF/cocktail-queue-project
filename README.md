@@ -64,9 +64,9 @@ We are currently studying **Mobile Software Development** at FH Joanneum in our 
 - [x] add developer info in pom.xml
 - [x] fix existing bugs
 - [x] create DrinkQueue class and methods
-- [ ] write tests
-- [ ] create maven site
-- [ ] write JavaDoc for classes and methods
+- [x] write tests
+- [x] create maven site
+- [x] write JavaDoc for classes and methods
 
 ### Rossmann
 
