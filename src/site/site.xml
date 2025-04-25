@@ -1,0 +1,13 @@
+<project name="Cocktail-Queue-Project">
+    <publishDate position="right" />
+    <version position="left" />
+    <body>
+        <menu name="Overview">
+            <item name="Introduction"
+                  href="index.html" />
+            <item name="Thomas Feyerl"
+                  href="member1.html" />
+        </menu>
+        <menu ref="reports" />
+    </body>
+</project>
