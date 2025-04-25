@@ -59,6 +59,7 @@ We are currently studying **Mobile Software Development** at FH Joanneum in our 
 - [ ] create DrinkQueue class
 - [ ] write tests
 - [ ] create maven site
+- [ ] write JavaDoc for classes and methods
 
 ### Rossmann
 
