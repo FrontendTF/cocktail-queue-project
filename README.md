@@ -1,10 +1,13 @@
 # cocktail-queue-project
 
 ## Description
+
 The program allows you to create various cocktails with an arbitrary number of ingredients that you can choose.
 
-# Installation & Requirements
+## Installation & Requirements
+
 To get working on the project you need to clone the repository. To clone you can simply copy the repository URL and type the following command into your terminal.
+
 ```bash
 git clone https://github.com/MarkusRossmannFHJ/cocktail-queue-project.git
 ```
@@ -12,21 +15,24 @@ git clone https://github.com/MarkusRossmannFHJ/cocktail-queue-project.git
 The program is written in Java and therefore requires a JDK. The following link takes you to the download page for JDKs.
 [www.oracle.com/java/technologies/downloads/](https://www.oracle.com/java/technologies/downloads/)
 
-> **Note:** The java version used for this project is 21.0.4 2024-07-16 LTS
-
+ **Note:** The java version used for this project is 21.0.4 2024-07-16 LTS
 
 ## How to run
+
 To run the program type the following code into a terminal:
 
 ```bash
 javac <PLACEHOLDER> 
 ```
 
-> **Note:** Make sure you are on the correct working directory. To navigate to your desired   directory you can use the following command: 
+**Note:** Make sure you are on the correct working directory. To navigate to your desired   directory you can use the following command:
+
 ```bash
-cd <path>
+cd <your-path>/cocktail-queue-project
 ```
+
 ## Commands
+
 *to be added*
 
 ## Contributing
@@ -55,8 +61,9 @@ We are currently studying **Mobile Software Development** at FH Joanneum in our 
 
 ### Feyerl
 
-- [ ] fix existing bugs
-- [ ] create DrinkQueue class
+- [x] add developer info in pom.xml
+- [x] fix existing bugs
+- [x] create DrinkQueue class and methods
 - [ ] write tests
 - [ ] create maven site
 - [ ] write JavaDoc for classes and methods
@@ -68,9 +75,9 @@ We are currently studying **Mobile Software Development** at FH Joanneum in our 
 - [x] extent pom.xml
 - [x] create Cocktail class
 - [x] write JavaDoc for classes and methods
+- [ ] add methods in DrinkQueue class
 
-
-### Links 🌐
+### Links
 
 #### Our GitHub profiles
 
