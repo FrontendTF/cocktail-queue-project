@@ -9,8 +9,8 @@ import org.junit.jupiter.api.Test;
  */
 public class AppTest {
 
-    /**
-     * Rigorous Test :-)
+     /**
+     * Always passes, basic sanity test.
      */
     @Test
     public void shouldAnswerWithTrue() {
