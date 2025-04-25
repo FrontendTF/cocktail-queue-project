@@ -2,14 +2,31 @@ package at.fhj.msd;
 
 import java.util.List;
 
+/**
+ * Provides methods to calculate the total volume, alcohol percentage,
+ * and whether the cocktail is alcoholic or not.
+ *
+ * @author Markus Rossmann
+ */
 public class Cocktail extends Drink {
     private List<Liquid> ingredients;
 
+    /**
+     * Creates a Cocktail object with the given name and a list of ingredients.
+     *
+     * @param name        the name of the cocktail
+     * @param ingredients a list of Liquid objects representing the ingredients
+     */
     public Cocktail(String name, List<Liquid> ingredients) {
         super(name);
         this.ingredients = ingredients;
     }
 
+    /**
+     * Calculates and returns volume of a cocktail
+     *
+     * @return the volume of drink in liter
+     */
     @Override
     public double getVolume() {
         double totalVolume = 0.0;
@@ -20,6 +37,11 @@ public class Cocktail extends Drink {
         return totalVolume;
     }
 
+    /**
+     * Calculates and returns the alcohol percentage
+     *
+     * @return alcohol volume percent (e.g. 50)
+     */
     @Override
     public double getAlcoholPercent() {
         double totalVolume = getVolume();
@@ -36,6 +58,11 @@ public class Cocktail extends Drink {
         return (alcoholVolume / totalVolume) * 100;
     }
 
+    /**
+     * Gives information if drink is alcoholic or not
+     *
+     * @return true when alcoholic liquids are present, otherwise false
+     */
     @Override
     public boolean isAlcoholic() {
         for (Liquid ingredient : ingredients) {
