@@ -9,7 +9,7 @@ import java.util.List;
  * @author Markus Rossmann
  */
 public class Cocktail extends Drink {
-    private List<Liquid> ingredients;
+    private final List<Liquid> ingredients;
 
     /**
      * Creates a Cocktail object with the given name and a list of ingredients.
