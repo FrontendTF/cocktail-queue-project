@@ -20,8 +20,9 @@ public class DrinkQueue {
         return drinks.offer(d);
     }
 
-     /**
-     * Retrieves and removes the head of the queue, or returns null if the queue is empty.
+    /**
+     * Retrieves and removes the head of the queue, or returns null if the queue is
+     * empty.
      *
      * @return the first drink in the queue or null if the queue is empty
      */
@@ -29,7 +30,7 @@ public class DrinkQueue {
         return drinks.poll();
     }
 
-     /**
+    /**
      * Retrieves and removes the head of the queue.
      *
      * @return the first drink in the queue
@@ -37,20 +38,19 @@ public class DrinkQueue {
      */
     public Drink remove() {
         Drink d = drinks.poll();
-        if (d == null) throw new NoSuchElementException("No drink in queue");
+        if (d == null)
+            throw new NoSuchElementException("No drink in queue");
         return d;
     }
 
     /**
-     * Retrieves, but does not remove, the head of the queue, or returns null if the queue is empty.
+     * Retrieves, but does not remove, the head of the queue, or returns null if the
+     * queue is empty.
      *
      * @return the first drink in the queue, or null if the queue is empty
      */
     public Drink peek() {
         return drinks.peek();
     }
-    // Russmans Methoden Teil  
-    
-    
 
 }
