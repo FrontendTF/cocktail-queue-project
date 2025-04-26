@@ -9,7 +9,7 @@ public class Liquid {
      * The name of the liquid (e.g., "Vodka", "Orange Juice").
      */
     private String name;
-      /**
+    /**
      * The volume of the liquid in liters.
      */
     private double volume;
@@ -18,11 +18,12 @@ public class Liquid {
      */
     private double alcoholPercent;
 
-     /**
-     * Constructs a new Liquid object with the given name, volume, and alcohol percentage.
+    /**
+     * Constructs a new Liquid object with the given name, volume, and alcohol
+     * percentage.
      *
-     * @param name the name of the liquid
-     * @param volume the volume in liters
+     * @param name           the name of the liquid
+     * @param volume         the volume in liters
      * @param alcoholPercent the alcohol content in percent
      */
     public Liquid(String name, double volume, double alcoholPercent) {
@@ -30,7 +31,8 @@ public class Liquid {
         this.volume = volume;
         this.alcoholPercent = alcoholPercent;
     }
-     /**
+
+    /**
      * Gets the name of the liquid.
      *
      * @return the name
@@ -38,6 +40,7 @@ public class Liquid {
     public String getName() {
         return name;
     }
+
     /**
      * Sets the name of the liquid.
      *
@@ -46,6 +49,7 @@ public class Liquid {
     public void setName(String name) {
         this.name = name;
     }
+
     /**
      * Gets the volume of the liquid in liters.
      *
@@ -54,7 +58,8 @@ public class Liquid {
     public double getVolume() {
         return volume;
     }
-     /**
+
+    /**
      * Sets the volume of the liquid in liters.
      *
      * @param volume the volume to set
@@ -62,6 +67,7 @@ public class Liquid {
     public void setVolume(double volume) {
         this.volume = volume;
     }
+
     /**
      * Gets the alcohol percentage of the liquid.
      *
@@ -70,7 +76,8 @@ public class Liquid {
     public double getAlcoholPercent() {
         return alcoholPercent;
     }
-     /**
+
+    /**
      * Sets the alcohol percentage of the liquid.
      *
      * @param alcoholPercent the alcohol percentage to set
