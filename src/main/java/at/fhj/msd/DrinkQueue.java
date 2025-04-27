@@ -52,5 +52,4 @@ public class DrinkQueue {
     public Drink peek() {
         return drinks.peek();
     }
-
 }
