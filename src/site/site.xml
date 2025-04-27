@@ -4,9 +4,11 @@
     <body>
         <menu name="Overview">
             <item name="Introduction"
-                  href="index.html" />
+                href="index.html" />
             <item name="Thomas Feyerl"
-                  href="member1.html" />
+                href="member1.html" />
+            <item name="Markus Rossmann"
+                href="member2.html" />
         </menu>
         <menu ref="reports" />
     </body>
