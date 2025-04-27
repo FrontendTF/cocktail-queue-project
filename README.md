@@ -74,9 +74,9 @@ We are currently studying **Mobile Software Development** at FH Joanneum in our 
 - [x] create maven project
 - [x] extent pom.xml
 - [x] create Cocktail class
+- [x] add methods in DrinkQueue class
 - [x] write tests
 - [x] write JavaDoc for classes and methods
-- [ ] add methods in DrinkQueue class
 
 ### Links
 
