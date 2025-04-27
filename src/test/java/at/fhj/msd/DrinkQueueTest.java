@@ -7,6 +7,9 @@ import java.util.NoSuchElementException;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ * Tests for DrinkQueue functionality.
+ */
 public class DrinkQueueTest {
 
     private DrinkQueue queue;
