@@ -31,10 +31,6 @@ javac <PLACEHOLDER>
 cd <your-path>/cocktail-queue-project
 ```
 
-## Commands
-
-*to be added*
-
 ## Contributing
 
 It is highly appreciated to add more features to the program.
