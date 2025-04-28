@@ -52,4 +52,19 @@ public class DrinkQueue {
     public Drink peek() {
         return drinks.peek();
     }
+
+    /**
+     * Retrieves, but does not remove, the head of the queue.
+     * Throws NoSuchElementException if the queue is empty.
+     *
+     * @return the head of the queue
+     * @throws java.util.NoSuchElementException if the queue is empty
+     */
+    public Drink element() {
+        Drink d = drinks.peek();
+        if (d == null) {
+            throw new NoSuchElementException("No drink in queue");
+        }
+        return d;
+    }
 }
