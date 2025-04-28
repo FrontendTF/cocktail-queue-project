@@ -14,11 +14,13 @@ public class DrinkQueueTest {
 
     private DrinkQueue queue;
     private Drink simple;
+    private Drink better;
 
     @BeforeEach
     void setUp() {
         queue = new DrinkQueue();
         simple = new SimpleDrink("Water", new Liquid("Water", 0.5, 0));
+        better = new SimpleDrink("Vodka", new Liquid("Vodka", 0.02, 40));
     }
 
     @Test
@@ -43,5 +45,17 @@ public class DrinkQueueTest {
     @Test
     void testRemoveThrowsException() {
         assertThrows(NoSuchElementException.class, () -> queue.remove());
+    }
+
+    @Test
+    void testElementReturnHead() {
+        queue.offer(simple);
+        Drink result = queue.element();
+        assertEquals(simple, result);
+    }
+
+    @Test
+    void testElementWhenEmpty() {
+        assertThrows(NoSuchElementException.class, () -> queue.element());
     }
 }
