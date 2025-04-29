@@ -2,7 +2,7 @@
 
 ## Description
 
-The program allows you to create various cocktails with an arbitrary number of ingredients that you can choose.
+The program allows you to create various cocktails with an arbitrary number of ingredients that you can choose.This project focuses on logic validation through unit testing and documentation generation — it is not intended as a runnable application.
 
 ## Installation & Requirements
 
@@ -17,19 +17,32 @@ The program is written in Java and therefore requires a JDK. The following link 
 
  **Note:** The java version used for this project is 21.0.4 2024-07-16 LTS
 
-## How to run
+## How to run the **Build**,**Test** and **Document**
 
-To run the program type the following code into a terminal:
+### -1
 
-```bash
-javac <PLACEHOLDER> 
-```
-
-**Note:** Make sure you are on the correct working directory. To navigate to your desired   directory you can use the following command:
+**Note:** Make sure you are on the correct working directory. To navigate to your desired directory you can use the following command:
 
 ```bash
 cd <your-path>/cocktail-queue-project
 ```
+
+### -2
+
+Build the project and run tests:
+
+```bash
+mvn clean install
+mvn test
+```
+
+### -3
+
+```bash
+mvn site
+```
+
+The generated documentation will be available under: target/site/index.html
 
 ## Contributing
 
@@ -63,6 +76,7 @@ We are currently studying **Mobile Software Development** at FH Joanneum in our 
 - [x] write tests
 - [x] create maven site
 - [x] write JavaDoc for classes and methods
+- [x] check final README.md
 
 ### Rossmann
 
