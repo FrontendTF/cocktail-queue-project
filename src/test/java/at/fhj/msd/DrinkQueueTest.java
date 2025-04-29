@@ -7,6 +7,9 @@ import java.util.NoSuchElementException;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ * Tests for DrinkQueue functionality.
+ */
 public class DrinkQueueTest {
 
     private DrinkQueue queue;
@@ -40,5 +43,17 @@ public class DrinkQueueTest {
     @Test
     void testRemoveThrowsException() {
         assertThrows(NoSuchElementException.class, () -> queue.remove());
+    }
+
+    @Test
+    void testElementReturnHead() {
+        queue.offer(simple);
+        Drink result = queue.element();
+        assertEquals(simple, result);
+    }
+
+    @Test
+    void testElementWhenEmpty() {
+        assertThrows(NoSuchElementException.class, () -> queue.element());
     }
 }

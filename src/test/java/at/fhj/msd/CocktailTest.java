@@ -7,6 +7,9 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ * Tests for Cocktail functionality.
+ */
 public class CocktailTest {
 
     @Test
@@ -33,10 +36,11 @@ public class CocktailTest {
         assertTrue(alcoholic.isAlcoholic());
         assertFalse(nonAlcoholic.isAlcoholic());
     }
+
     @Test
     void testZeroVolumeAlcoholPercent() {
         List<Liquid> zeroVolume = List.of(new Liquid("Nothing", 0.0, 50.0));
         Cocktail emptyCocktail = new Cocktail("Empty", zeroVolume);
         assertEquals(0.0, emptyCocktail.getAlcoholPercent());
-}
+    }
 }
